@@ -2,6 +2,7 @@ const usernameInput = document.getElementById("usernameInput");
 const searchBtn = document.getElementById("searchBtn");
 
 const message = document.getElementById("message");
+
 const profileContainer = document.getElementById("profileContainer");
 
 searchBtn.addEventListener("click", searchProfile);
