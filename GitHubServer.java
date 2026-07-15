@@ -17,6 +17,7 @@ public class GitHubServer {
                 new InetSocketAddress(8080),
                 0
         );
+        
 
         server.createContext("/github", GitHubServer::getGitHubProfile);
 
